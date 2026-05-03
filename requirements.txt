@@ -1,0 +1,9 @@
+scipy
+numpy
+matplotlib
+zeroconf
+moku
+jupyter
+ipykernel
+ipympl
+ipywidgets

@@ -1,0 +1,9 @@
+.*
+*.pyc
+*.npy
+*.p
+*.log
+*~
+
+!/.gitignore
+#*

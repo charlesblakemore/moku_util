@@ -1,0 +1,87 @@
+Metadata-Version: 2.4
+Name: moku_util
+Version: 0.1
+Summary: Basic utilities for Moku:Go
+Home-page: https://github.com/charlesblakemore/moku_util
+Author: Charles Blakemore
+Author-email: chas.blakemore@gmail.com
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: summary
+
+Basic Utilities for Moku:Go
+===========================
+
+This package mainly provides a class definition for handling Moku:Go
+data, along with some basic utilities for plotting and data
+manipulation. There will likely be some associated libraries for
+specific lab applictions.
+
+This code is intended for use by in the Stanford Physics Department,
+for the course Physics 81L: Introduction to Experimental Practice
+
+Install
+-------
+
+From sources
+````````````
+
+If you intend to edit the code and want the import calls to reflect
+those changes, install in developer mode::
+
+   pip install -e moku_util
+
+THIS FIRST INSTALLATION METHOD IS HIGHLY RECOMMENDED
+
+To install system-wide and not incorporate changes, noting the path 
+to the src since no wheels exist on PyPI, use::
+
+   pip install ./moku_util
+
+If you don't want a global installation (i.e. if multiple users will
+engage with and/or edit this library) and you don't want to use venv
+or some equivalent::
+
+   pip install moku_util --user
+
+Where you can include the ``-e`` flag to install in developer mode
+
+where pip is pip3 for Python3 (tested on Python 3.6.9). Be careful 
+NOT to use ``sudo``, as the latter two installations make a file
+``easy-install.pth`` in either the global or the local directory
+``lib/python3.X/site-packages/easy-install.pth``, and sudo will
+mess up the permissions of this file such that uninstalling is very
+complicated.
+
+
+Uninstall
+---------
+
+If installed without ``sudo`` as instructed, uninstalling should be 
+as easy as::
+
+   pip uninstall opt_lev_analysis
+
+If installed using ``sudo`` and with the ``-e`` and ``--user`` flags, 
+the above uninstall will encounter an error.
+
+Navigate to the file ``lib/python3.X/site-packages/easy-install.pth``, 
+located either at  ``/usr/local/`` or ``~/.local`` and ensure there
+is no entry for ``moku_util``.
+
+
+License
+-------
+
+The package is distributed under an open license (see LICENSE file for
+information).
+
+
+Authors
+-------
+
+Charles Blakemore (chas.blakemore@gmail.com)

@@ -1,0 +1,10 @@
+# % Moku:Go Data Logger
+# % Input 1 (on), DC, 30 MHz, 1 MOhm, 10 Vpp
+# % Input 2 (on), DC, 30 MHz, 1 MOhm, 10 Vpp
+# % Acquisition: Normal mode, 4.9603174603e+05 Hz
+# % Logging: Immediate, duration 1s
+# % Output 1 (on) - Sine, 1.000 000 000 kHz, 1.000 0 Vpp, offset 0.000 0 V, phase 0.000 000 deg
+# % Output 2 (off) - Square, 50.000 000 000 kHz, 500.0 mVpp, offset 0.000 0 V, phase 0.000 000 deg, duty cycle 50.00 %
+# % 
+# % Acquired 2026-05-02 T 19:52:27 -0700
+# % Time (s), Input 1 (V), Input 2 (V)

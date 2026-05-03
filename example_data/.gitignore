@@ -1,0 +1,13 @@
+.*
+*.pyc
+*.npy
+*.p
+*.log
+*~
+
+!/.gitignore
+#*
+
+cs137_2channel_pulses.li
+cs137_2channel_pulses.npy
+cs137_2channel_pulses.txt

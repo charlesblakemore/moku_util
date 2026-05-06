@@ -11,3 +11,7 @@
 cs137_2channel_pulses.li
 cs137_2channel_pulses.npy
 cs137_2channel_pulses.txt
+
+background_2channel_pulses.li
+background_2channel_pulses.npy
+background_2channel_pulses.txt
